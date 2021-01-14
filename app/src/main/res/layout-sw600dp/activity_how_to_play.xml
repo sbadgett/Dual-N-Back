@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HowToPlay">
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="4dp"
+        android:text="You can change various settings in the settings tab. You can manually change the N value, but it is recommended that you progress through the game to higher levels so that the difficulty level is appropriate. You can also change the increase threshold and decrease threshold to affect what kind of performance you need to change the N value. "
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="4dp"
+        android:text="Play as many rounds as you like. When you are done and return from the game, your session results will be saved. You can view your progress on the progress tab."
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="4dp"
+        android:text="After each round, your score is calculated. If you perform well enough, the N value will increase by 1 for the next round. If you do too poorly, you will be at risk for a decrease in N. Perform poorly 3 times in a row and N will be decreased by one."
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10"
+        app:layout_constraintVertical_bias="0.856" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="4dp"
+        android:text="Each round is associated with an N value. You must determine if the current tile highlighted and/or the current letter spoken is the same tile or letter as it was N rounds ago. If there is a match, hit the visual match button, the audo match button, or the both button."
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="How to Play Dual N-Back"
+        android:textColor="#000000"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="4dp"
+        android:text="Dual N-Back is a game designed to train your memory by requiring you to keep track of visual and auditory cues. Each round, you must remember the order of tiles being highlighted and the letters being said. "
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+</androidx.constraintlayout.widget.ConstraintLayout>
